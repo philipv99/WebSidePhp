@@ -4,46 +4,59 @@ $translattion = [
   "header" => [
     "nav" => [
       [
-        "name" => "Contact",
-        "link" => "contact.php",
+        "name" => "Kontakt",
+        "link" => "#contact",
         "spanAffix" => "",
         "spanText" => "",
       ],
       [
         "name" => "CV",
         "link" => "cv.php",
-        "spanAffix" => "info",
-        "spanText" => "Nyt",
+        "spanAffix" => "alert",
+        "spanText" => "Kommer snart",
       ],
       [
-        "name" => "Projects",
-        "link" => "projekt.php",
+        "name" => "Projektor",
+        "link" => "projekts.php",
         "spanAffix" => "alert",
         "spanText" => "Kommer snart",
       ],
     ]
   ],
+  "footer" => [
+    "header" => "Tak for kikket",
+    "text" => "Tak fordi du tog dig tid til at kigge forbi min portefølje! Du er velkommen til at kontakte mig, hvis du vil høre mere om mine projekter eller samarbejdsmuligheder.",
+    "button" => "Til toppen",
+  ],
   "welcome" => [
-    "header" => "Velkommen",
-    "underheader" => "Til min side",
-    "text" => "Denne side er 2.0 af min egen portefolie side. Siden er blevet opdateret fra en simpel HTML tide. TIl nu at være PHP, med js og Tailwind.
+    "header" => "Hej og velkommen",
+    "underheader" => "til min portefølje!",
+    "text" => "Her kan du lære mere om mig, mine færdigheder og de projekter, jeg har arbejdet på. Side er 2.0 af min egen portefolie side. Siden er blevet opdateret fra en simpel HTML side. Til nu at være PHP, med js og Tailwind.
     <br><br>
     Siden har til formål at vise nogle at mine evner samt give mig et sted hvor jeg kan poste og linke til. Enværd skal kunne se de projekter jeg laver og se mit CV",
   ],
   "about" => [
-    [
-      "header" => "Baggrund",
-      "text" => "Jeh gar altid haft interasse for det nørdede. Og altid fundet spil, computer og tech generalt meget spænende."
+    "header" => "Mere om mig",
+    "blogs" => [
+      [
+        "header" => "Baggrund",
+        "text" => "Jeh gar altid haft interasse for det nørdede. Og altid fundet spil, computer og tech generalt meget spænende."
+      ],
+      [
+        "header" => "Intarasse",
+        "text" => "Startede med at prøve mit værd inde for 3D grafik til video og spil. Efter det falft igennem grundet mangel på praktik plads."
+      ],
+      [
+        "header" => "Nu, uddannet",
+        "text" => "Efter flere skole år, er jeg nu Færdig udannet datamatiker, og er på jagt efter udfordringer."
+      ],
     ],
-    [
-      "header" => "Intarasse",
-      "text" => "Startede med at prøve mit værd inde for 3D grafik til video og spil. Efter det falft igennem grundet mangel på praktik plads."
-    ],
-    [
-      "header" => "Nu, uddannet",
-      "text" => "Efter flere skole år, er jeg nu Færdig udannet datamatiker, og er på jagt efter udfordringer."
-    ],
-
+  ],
+  "artickle" => [
+    "header" => "Lidt om mig",
+    "blog" => [
+      "Jeg er en nyuddannet datamatiker med en passion for softwareudvikling. Jeg elsker at arbejde med PHP, Ruby on Rails, Python og C#, og jeg brænder for at skabe brugervenlige og effektive løsninger.",
+    ]
   ],
   "introSlideShow" => [
     [
@@ -63,11 +76,63 @@ $translattion = [
     ],
   ],
   "skills" => [
-    [
-      "img" => "",
-      "header" => "",
-      "text" => "",
+    "header" => "",
+    "blogs" => [
+      [
+        "img" => "../assets/img/webdesign-design2.png",
+        "header" => "Skill",
+        "text" => "Skill text",
+      ]
     ]
+  ],
+  "kvolifications" => [
+    "design" => [
+      "header" => "Design & opstilling",
+      "text" => "Forståelse for UI/UX og responsive designs.",
+      "bg-img" => "../assets/img/webdesign_design.png",
+      "imgs" => [
+        [
+          "style" => "absolute top-[6%] right-[14%] w-[22%] levetate",
+          "url" => "../assets/img/webdesign-design2.png",
+        ],
+        [
+          "style" => "absolute top-[43%] left-[15%] w-[22%] levetate",
+          "url" => "../assets/img/webdesign-design3.png",
+        ],
+        [
+          "style" => "absolute top-[54%] right-[12%] w-[22%] levetate",
+          "url" => "../assets/img/webdesign-design1.png",
+        ],
+      ],
+    ],
+    "programming" => [
+      "header" => "Teknologier",
+      "text" => "endskab til Python, Ruby on Rails, C#, PHP, JavaScript og Tailwind CSS.",
+      "bg-img" => "../assets/img/webdesign_kode.png",
+      "imgs" => [
+        [
+          "style" => "absolute top-[6%] right-[14%] w-[20%] levetate",
+          "url" => "../assets/img/webdesign_kode1.png",
+        ],
+        [
+          "style" => "absolute top-[15%] right-[62%] w-[22%] levetate",
+          "url" => "../assets/img/webdesign_kode5.png",
+        ],
+        [
+          "style" => "absolute top-[51%] right-[46%] w-[18%] levetate",
+          "url" => "../assets/img/webdesign_kode2.png",
+        ],
+        [
+          "style" => "absolute top-[62%] right-[12%] w-[20%] levetate",
+          "url" => "../assets/img/webdesign_kode3.png",
+        ],
+        [
+          "style" => "absolute top-[42%] left-[5%] w-[18%] levetate",
+          "url" => "../assets/img/webdesign_kode4.png",
+        ],
+      ],
+    ],
+    "agile" => "",
   ],
   "contact" => [
     "header" => "Kontakt Mig",
@@ -112,7 +177,7 @@ $translattion = [
   ],
   "photo" => [
     "header" => "Billeder jeg har taget",
-    "text" => "Loremskmksa sad sad sad asd asd asd sa da dsa dsa asd as asd asd asd",
+    "text" => "Her deler jeg nogle af de billeder, jeg har taget. Fotografi er en af mine store interesser, og jeg elsker at eksperimentere med lys og komposition.",
     "photos" => [
       "photo_0.jpg",
       "photo_1.jpg",

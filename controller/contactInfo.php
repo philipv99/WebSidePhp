@@ -6,7 +6,8 @@ function contactInfo(array $trans)
   ob_start(); ?>
   <section class=" bg-gray-50 dark:bg-slate-900 dark:text-white z-10 bg-[url(/assets/img/bg-img-blosom.jpg)]">
     <div class="w-full h-full bg-sky-600/70 dark:bg-slate-800/90 py-8 lg:px-4 backdrop-blur-sm">
-      <div class="container max-w-[1200px] bg-white/30 py-6 px-2 md:px-6 lg:rounded-2xl mx-auto flex flex-col shadow-2xl">
+      <div class="container max-w-[1200px] bg-white/30 py-6 px-2 md:px-6 lg:rounded-2xl mx-auto flex flex-col shadow-2xl"
+        id="#contact">
         <div class="flex flex-col justify-center text-center border-b-[1px] border-cyan-400 dark:border-cyan-600 mb-7">
           <h2 class="text-5xl font-light mb-3"><?= $trans["contact"]["header"] ?></h2>
           <p class="text-xl mb-4"><?= $trans["contact"]["text"] ?></p>
